@@ -42,7 +42,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Nakibinge Gideon Portfolio";
+            document.title = "Nakibinge Gideon Portfolio ";
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
     });
